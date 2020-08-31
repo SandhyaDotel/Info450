@@ -1,9 +1,11 @@
-
 import logging
 logging.basicConfig(level=logging.DEBUG)
 def squared_threes():
     return_value = []
     # YOUR CODE GOES HERE
+    for i in range(100):
+        if(i%3 == 0):
+            return_value.append(i*i)
     # END SHOULDNT GO BEYOND HERE
     return return_value
 
